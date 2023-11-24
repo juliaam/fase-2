@@ -1,0 +1,57 @@
+body {
+	background: linear-gradient(-45deg,  #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+footer {
+    background-color: whitesmoke;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+}
+
+footer .copyright {
+    font-size: smaller;
+}
+
+.page-content {
+    background-color: whitesmoke;
+    width: 50em;
+    height: 43em;
+    border-radius: 1%;
+  
+}
+
+.secoes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.secao  {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+.title {
+    text-align: center;
+}
